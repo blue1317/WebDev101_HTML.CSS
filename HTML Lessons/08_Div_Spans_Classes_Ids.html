@@ -5,8 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Divs, Spans, Classes, and Ids</title>
+    <style>
+        .card {
+            border: 1px solid #ccc;
+            background-color: #f4f4f4;
+            padding: 20px;
+            margin-bottom: 10px;
+        }
+
+        .enhance {
+            color: yellow;
+            background-color: black;
+        }
+    </style>
 </head>
 <body>
-    
+    <div id="main-header">
+        <h1>My website</h1>
+        <p>A site about me</p>
+        <h2>NOTE: '#' is an ID and '.' is a Class</h2>
+    </div>
+    <ul id="main-nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+    <div id="about" class="card">
+        <h3>about</h3>
+        <p>Lorem ipsum dolor <span class="enhance">sit amet consectetur adipisicing elit. Ab animi quam modi qui, repellat placeat optio non blanditiis ullam nemo? Maiores optio animi perspiciatis ducimus. Veritatis reiciendis iste facere totam!</span>
+        Nihil tempore veniam excepturi, adipisci error asperiores assumenda doloremque omnis mollitia quo, velit a, deserunt officiis perferendis illum totam repellendus voluptatibus maxime sunt consectetur est? Fugiat vero debitis quod eligendi.</p>
+    </div>
+    <div id="contact" class="card">
+        <h3>Contact Me</h3>
+        <ul>
+            <li>Adress: 12345 Sunshine Ave, Charlotte NC</li>
+            <li>Phone: (555) 555-5555</li>
+            <li>email: test@test.com</li>
+        </ul>
+    </div>
+
+    <div id="footer">
+        <p>copyright 2021</p>
+    </div>
 </body>
 </html>
