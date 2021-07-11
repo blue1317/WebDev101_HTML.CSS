@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vh & Vw Units</title>
+    <!-- There are always 100 VH and VW units on every webpage -->
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        header {
+            background: #333 url('https://source.unsplash.com/random') no-repeat center center/cover;
+            color: #fff;
+            height: 100vh;
+            text-align: center;
+            padding: 2rem;
+            padding-top: 20rem;
+        }
+
+        header h1 {
+            font-size: 3rem;
+        }
+
+        header p {
+            margin: 1rem 0;
+        }
+
+        .btn {
+            display: inline-block;
+            text-decoration: none;
+            background: #f4f4f4;
+            color: #333;
+            padding: .75rem 2rem;
+        }
+
+        section {
+            padding: 2rem;
+        }
+
+        @media(max-height: 450px) {
+            header {
+                padding-top: 5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to my website</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit at excepturi voluptatum necessitatibus non omnis.</p>
+        <a href="#" class="btn">Find Out More</a>
+    </header>
+
+    <section>
+        <h3>About Us</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic ipsam, reiciendis nemo unde autem ducimus. Provident ipsa laboriosam quia aut, ut quod perspiciatis ab ullam quas facere, veritatis possimus molestiae, repellendus id enim saepe maxime! Magni cum ex dolorum, voluptates vitae et velit numquam consequatur quaerat blanditiis earum, ducimus necessitatibus!</p>
+    </section>
+</body>
+</html>
